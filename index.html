@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumo | Веб дизајн студио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="#" class="logo">
+        <img src="images/logo-1.png" alt="Lumo Logo">
+    </a>
+
+    <nav class="nav" id="nav">
+        <a href="#home">Почетна</a>
+        <a href="#services">Услуги</a>
+        <a href="#projects">Проекти</a>
+<!--        <a href="#about">За нас</a>-->
+<!--        <a href="#pricing">Цени</a>-->
+        <a href="#contact">Контакт</a>
+    </nav>
+
+    <button class="primary-btn" onclick="openContactModal()">Контактирај нè</button>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-text">
+        <span>ВЕБ ДИЗАЈН СТУДИО</span>
+        <h1>Веб страни што градат доверба и носат резултати.</h1>
+        <p>
+            Креираме модерни, брзи и безбедни веб страни кои им помагаат
+            на бизнисите да изгледаат професионално и да растат онлајн.
+        </p>
+
+        <div class="hero-buttons">
+            <button class="primary-btn" onclick="openContactModal()">Контактирај нè</button>
+            <a href="#projects" class="secondary-btn">Види проекти</a>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <img src="images/image-1.png" alt="Lumo Website Mockup">
+    </div>
+</section>
+
+<section class="services" id="services">
+    <div class="section-title">
+        <span>УСЛУГИ</span>
+        <h2>Што можеме да направиме за вас</h2>
+    </div>
+    <div class="services-grid">
+        <div class="service-card">
+            <div class="icon-services"><img src="images/icon-1.png" alt="Web Design"></div>
+            <h3>Веб дизајн</h3>
+            <p>Модерни и привлечни веб страни прилагодени за вашиот бренд.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="icon-services"><img src="images/icon-2.png" alt="Web Design"></div>
+            <h3>Е-продавници</h3>
+            <p>Онлајн продавници што носат повеќе продажби и задоволни клиенти.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="icon-services"><img src="images/icon-3.png" alt="Web Design"></div>
+            <h3>Веб развој</h3>
+            <p>Брзи, безбедни и стабилни веб решенија со најнови технологии.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="icon-services"><img src="images/icon-4.png" alt="Web Design"></div>
+            <h3>SEO оптимизација</h3>
+            <p>Оптимизирани страни што полесно се наоѓаат на Google.</p>
+        </div>
+    </div>
+</section>
+
+<section class="projects" id="projects">
+    <div class="section-title left">
+        <span>НАШИ ПРОЕКТИ</span>
+        <h2>Проекти на кои сме горди</h2>
+    </div>
+
+    <div class="projects-grid">
+        <div class="project-card">
+            <img src="images/project-1.png" alt="">
+            <h3><a href="https://janakrajchevv.github.io/Smart-Routing-App/"> Smart Routing App</a></h3>
+            <p>Веб дизајн</p>
+        </div>
+
+        <div class="project-card">
+            <img src="images/project-1.png" alt="">
+            <h3><a href="https://janakrajchevv.github.io/Smart-Routing-App/"> Smart Routing App</a></h3>
+            <p>Веб дизајн</p>
+        </div>
+
+        <div class="project-card">
+            <img src="images/project-1.png" alt="">
+            <h3><a href="https://janakrajchevv.github.io/Smart-Routing-App/"> Smart Routing App</a></h3>
+            <p>Веб дизајн</p>
+        </div>
+    </div>
+</section>
+<section class="stats">
+    <div>
+        <h3 class="stat-number" data-target="50" data-suffix="+">0+</h3>
+        <p>Задоволни клиенти</p>
+    </div>
+
+    <div>
+        <h3 class="stat-number" data-target="100" data-suffix="+">0+</h3>
+        <p>Завршени проекти</p>
+    </div>
+
+    <div>
+        <h3 class="stat-number" data-target="99" data-suffix="%">0%</h3>
+        <p>Задоволство</p>
+    </div>
+
+    <div>
+        <h3 data-suffix="24/7">24/7</h3>
+        <p>Поддршка</p>
+    </div>
+</section>
+
+
+<section class="banner">
+    <img src="images/image-1.png" alt="Lumo Banner">
+    <div class="banner-content">
+        <h2>Имате идеја? Ние ја претвораме во моќна веб страна.</h2>
+        <p>
+            Без разлика дали ви треба нов веб сајт или редизајн,
+            ние сме тука да ви помогнеме да растете онлајн.
+        </p>
+        <button class="primary-btn" onclick="openContactModal()">Контактирај нè</button>
+    </div>
+</section>
+
+<footer class="footer" id="contact">
+    <div class="footer-content">
+        <div>
+            <img src="images/logo-1.png" alt="Lumo Logo" class="footer-logo">
+            <p>Веб дизајн студио кое креира модерни, брзи и безбедни веб страни.</p>
+        </div>
+
+        <div>
+            <h4>Брзи линкови</h4>
+            <a href="#home">Почетна</a>
+            <a href="#services">Услуги</a>
+            <a href="#projects">Проекти</a>
+            <a href="#contact">Контакт</a>
+        </div>
+
+        <div>
+            <h4>Услуги</h4>
+            <a href="#">Веб дизајн</a>
+            <a href="#">Е-продавници</a>
+            <a href="#">SEO оптимизација</a>
+        </div>
+
+        <div>
+            <h4>Контакт</h4>
+            <p>+389 77 890 780</p>
+            <p>lumowebsitesolution@gmail.com</p>
+            <p>Македонија</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        © 2024 Lumo. Сите права се задржани.
+    </div>
+</footer>
+<div class="modal-overlay" id="contactModal">
+    <div class="contact-modal">
+        <button class="close-modal" onclick="closeContactModal()">×</button>
+
+        <h2>Контактирај нè</h2>
+        <p>Пополнете ја формата и ќе ве контактираме наскоро.</p>
+
+        <form id="contactForm">
+            <div class="form-row">
+                <label>Име <span>*</span></label>
+                <input type="text" name="first_name" required>
+            </div>
+
+            <div class="form-row">
+                <label>Презиме <span>*</span></label>
+                <input type="text" name="last_name" required>
+            </div>
+
+            <div class="form-row">
+                <label>Email <span>*</span></label>
+                <input type="email" name="email" required>
+            </div>
+
+            <div class="form-row">
+                <label>Телефон <span>*</span></label>
+                <input type="tel" name="phone" required>
+            </div>
+
+            <div class="form-row">
+                <label>За каков бизнис се работи? (Име на бизнисот или инстаграм профил) <span>*</span></label>
+                <input type="text" name="business_type" required>
+            </div>
+
+            <div class="form-row">
+                <label>Забелешка</label>
+                <textarea name="message" rows="5"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Испрати порака</button>
+
+            <p class="form-status" id="formStatus"></p>
+        </form>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
