@@ -19,6 +19,7 @@ function closeContactModal() {
     document.getElementById("contactModal").classList.remove("active");
 }
 
+
 function startCounters() {
     const counters = document.querySelectorAll(".stat-number");
 
